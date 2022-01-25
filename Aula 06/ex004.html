@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu nome tem...</title>
+    <style>
+        body { font: Normal 21pt Verdana;
+        background-color: azure;}
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt('Qual o seu nome?')
+      //var salario = prompt('Qual o seu salário?')
+        document.write (`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras</br>`) 
+        document.write (`Seu nome em maiscúlas é ${nome.toUpperCase()}</br>`)
+      //document.write (`E seu salário é: ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} </br> `)
+    </script>
+</body>
+</html>
